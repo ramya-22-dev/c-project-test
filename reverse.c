@@ -1,9 +1,9 @@
 #include <stdio.h>
-void rev()
+void reverse()
 {
   char str[1000], rev[1000];
   int i, j, count = 0;
-  printf ("\nEnter string to reverse:");
+  printf ("\nEnter String to Reverse:");
   scanf("%s", str);
   printf("\nString Before Reverse: %s", str);
   //finding the length of the string
